@@ -85,3 +85,25 @@
     --background-color: #222222;
     --copy-color: #eeeeee;
 }
+
+
+
+/* -----------------------------------
+        Variable font
+   ----------------------------------- */
+body {
+    font-family: 'FF Meta VF', Arial, sans-serif;
+    font-variation-settings: "wght" 300, "ital" 0;
+}
+
+/* -----------------------------------
+        Controls
+   ----------------------------------- */
+.e-controls {
+    font-size: 1.4rem;
+    font-variation-settings: "wght" 300;
+}
+
+    .c-input__range {
+        width: 300px;
+    }
