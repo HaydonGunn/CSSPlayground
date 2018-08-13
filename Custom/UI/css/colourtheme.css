@@ -2,6 +2,11 @@
         Grid structure
    ----------------------------------- */
 
+.e-controls {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .e-wrapper {
     display: grid;
 
@@ -107,3 +112,93 @@ body {
     .c-input__range {
         width: 300px;
     }
+
+/* -----------------------------------
+        Range Sliders
+   ----------------------------------- */
+
+   /* Normalise */
+    input[type=range] {
+        -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+        width: 100%; /* Specific width is required for Firefox. */
+        background: transparent; /* Otherwise white in Chrome */
+    }
+    
+    input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+    }
+    
+    input[type=range]:focus {
+        outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+    }
+    
+    input[type=range]::-ms-track {
+        width: 100%;
+        cursor: pointer;
+        
+        /* Hides the slider so custom styles can be added */
+        background: transparent; 
+        border-color: transparent;
+        color: transparent;
+    }
+
+      
+    /* Styling */
+    .c-input__range::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: -10px;
+        left: -10px;
+        border-radius: 50%;
+        background: white;
+        border: 1px solid #aaa;
+        cursor: pointer;
+    }
+    .c-input__range::-moz-slider-thumb {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: white;
+        border: 1px solid #aaa;
+        cursor: pointer;
+    }
+    .c-input__range::-ms-thumb {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: white;
+        border: 1px solid #aaa;
+        cursor: pointer;
+    }
+
+    .c-input__range::-webkit-slider-runnable-track {
+        width: 100%;
+        height: 3px;
+        cursor: pointer;
+        background: #ccc;
+    }
+    .c-input__range::-moz-range-track {
+        width: 100%;
+        height: 3px;
+        cursor: pointer;
+        background: #ccc;
+    }
+    .c-input__range::-ms-track {
+        width: 100%;
+        height: 3px;
+        cursor: pointer;
+        background: transparent;
+    }
+
+    .c-input__range::-ms-fill-upper {
+        background: #ccc;
+    }
+    .c-input__range::-ms-fill-lower {
+    }
+    .c-slider__wrapper {
+        width: 340px;
+        margin-top: 10px;
+    }
+    

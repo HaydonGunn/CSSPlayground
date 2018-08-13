@@ -21,7 +21,6 @@ function themeSwitch(event) {
 function rangeSliderWeight(event) {
     fontVariationWeight = event.target.value;
 
-    console.log("weight")
     setFontVariationSettings();
 }
 
@@ -32,7 +31,6 @@ function rangeSliderItalic(event) {
 }
 
 function setFontVariationSettings() {
-    console.log("set method called")
     var contentWrapper = document.querySelector("[data-js-content-wrapper]");
     
     contentWrapper.style.fontVariationSettings = "'wght' " + fontVariationWeight + ", 'ital' " + fontVariationItalic;
