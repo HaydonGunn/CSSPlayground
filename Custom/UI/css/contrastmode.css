@@ -1,0 +1,53 @@
+/* -----------------------------------
+        Panels
+   ----------------------------------- */
+:root {
+    --copy-color: #363636;
+    --link-color: #33d1e8;
+    --link-color-hover: #3ea6a0;
+    --section-bg-even: #eeeeee;
+}
+
+header {
+    width: 100%;
+    max-width: 128rem;
+    margin: 0 auto;
+}
+.e-main-nav {
+    display: flex;
+    list-style: none;
+}
+.e-main-nav__item {
+    font-display: 1.6rem;
+    padding: 1rem 3rem;
+}
+.e-main-nav__item__link {
+    color: var(--link-color);
+    display: block;
+    padding: 0.5rem 1rem;
+}
+.e-main-nav__item__link:hover,
+.e-main-nav__item__link:active,
+.e-main-nav__item__link:focus {
+    color: var(--link-color-hover);
+}
+.c-page-section {
+    width: 100%;
+    max-width: 128rem;
+    margin: 0 auto;
+}
+.c-page-section:nth-child(even) {
+    background: var(--section-bg-even);
+}
+.c-btn { }
+.c-btn--primary { }
+.c-btn--secondary { }
+.c-btn--tertiary { }
+.c-btn--reverse { }
+.c-form-row { }
+.c-form-col { }
+.e-label { }
+.e-field { }
+.e-label--radio { }
+.e-radio { }
+.e-label--checkbox { }
