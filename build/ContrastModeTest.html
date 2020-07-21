@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Testing Display modes</title>
+    <link href="/assets/dist/styles/vendor/normalize.css" rel="stylesheet" type="text/css">
+    <link href="/assets/dist/styles/contrastmode.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- <header>
+        <nav>
+            <ul class="e-main-nav">
+                <li class="e-main-nav__item">
+                    <a href="#" class="e-main-nav__item__link">Home</a>
+                </li>
+                <li class="e-main-nav__item">
+                    <a href="#" class="e-main-nav__item__link">Page 1</a>
+                </li>
+                <li class="e-main-nav__item">
+                    <a href="#" class="e-main-nav__item__link">Page 2</a>
+                </li>
+                <li class="e-main-nav__item">
+                    <a href="#" class="e-main-nav__item__link">Page 3</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header> -->
+    <main>
+        <div class="c-page-section">
+            <div class="c-page-section__inner">
+                <h1>Page title</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsum nihil ut aspernatur officiis reprehenderit nemo. Doloremque tempora assumenda nulla. At numquam unde aperiam. Dicta officia recusandae architecto magnam cupiditate?</p>
+                <h2>Secondary title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere cumque aut odio, sunt quia accusantium. Consequatur, itaque cumque dolorum voluptas deleniti aliquam exercitationem excepturi velit! Nihil sapiente labore vitae aliquam.</p>
+                <h3>Third level title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#">This is a test</a> Rerum eius voluptatum aperiam doloremque voluptas incidunt porro officiis? Libero obcaecati quas est deleniti asperiores quaerat a voluptates ut expedita repellendus? Architecto?</p>
+            </div>
+        </div>
+        <div class="c-page-section">
+            <div class="c-page-section__inner">
+                <h2>Full buttons</h2>
+                <button class="c-btn c-btn--primary">Primary</button>
+                <button class="c-btn c-btn--secondary">Secondary</button>
+                <button class="c-btn c-btn--tertiary">Tertiary</button>
+                <h2>Hollow reverse</h2>
+                <button class="c-btn c-btn--reverse c-btn--primary">Primary</button>
+                <button class="c-btn c-btn--reverse c-btn--secondary">Secondary</button>
+                <button class="c-btn c-btn--reverse c-btn--tertiary">Tertiary</button>
+            </div>
+        </div>
+        <div class="c-page-section">
+            <div class="c-page-section__inner">
+                <h2>Forms</h2>
+                <div class="c-form-row">
+                    <div class="c-form-col">
+                        <label for="fname" class="e-label">First name</label>
+                        <input type="text" name="fname" id="fname" class="e-field">
+                    </div>
+                    <div class="c-form-col">
+                        <label for="lname" class="e-label">Last name</label>
+                        <input type="text" name="fname" id="lname" class="e-field">
+                    </div>
+                </div>
+                <div class="c-form-row">
+                    <div class="c-form-col">
+                        <label for="email" class="e-label">Email</label>
+                        <input type="email" name="email" id="email" class="e-field">
+                    </div>
+                    <div class="c-form-col">
+                        <label for="email" class="e-label">Position</label>
+                        <select class="e-field">
+                            <option>Choose...</option>
+                            <option value="option1">Option 1</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="c-form-row">
+                    <div class="c-form-col">
+                        <label for="enquiry" class="e-label">Enquiry</label>
+                        <textarea name="enquiry" id="enquiry" cols="30" rows="10" class="e-field"></textarea>
+                    </div>
+                </div>
+                <div class="c-form-row">
+                    <div class="c-form-col">
+                        <fieldset>
+                            <h3 class="e-label">Options</h3>
+                            <input type="radio" name="Options" id="rbOptionsOption1" class="e-radio">
+                            <label for="rbOptionsOption1" class="e-label e-label--radio">Option 1</label>
+                            <input type="radio" name="Options" id="rbOptionsOption2" class="e-radio">
+                            <label for="rbOptionsOption2" class="e-label e-label--radio">Option 2</label>
+                            <input type="radio" name="Options" id="rbOptionsOption3" class="e-radio">
+                            <label for="rbOptionsOption3" class="e-label e-label--radio">Option 3</label>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="c-form-row">
+                    <div class="c-form-col">
+                        <h3 class="e-label">Confirm</h3>
+                        <input type="checkbox" id="chkConfirm" class="e-checkbox">
+                        <div class="e-checkbox__label-wrapper">
+                            <label for="chkConfirm" class="e-label e-label--checkbox">Confirm</label>
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="e-checkbox__tick">
+                                <title>tick</title>
+                                <path d="M31.556 6.55l-1.481-1.481c-0.614-0.607-1.61-0.607-2.224 0l-15.543 15.543-8.147-8.14c-0.607-0.614-1.61-0.614-2.224 0l-1.481 1.481c-0.614 0.614-0.614 1.61 0 2.224l10.733 10.733c0.307 0.307 0.703 0.464 1.105 0.464s0.805-0.157 1.105-0.464l18.142-18.142c0.628-0.621 0.628-1.61 0.014-2.217z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-form-row">
+                    <input type="submit" class="c-btn c-btn--primary" text="submit">
+                </div>
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>
