@@ -1,22 +1,45 @@
 {
-  "name": "cssplayground",
-  "version": "1.0.0",
-  "description": "A place to muck around with some CSS",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HaydonGunn/CSSPlayground.git"
-  },
-  "author": "Haydon",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HaydonGunn/CSSPlayground/issues"
-  },
-  "homepage": "https://github.com/HaydonGunn/CSSPlayground#readme",
-  "devDependencies": {
-    "@percy/script": "^1.0.3"
-  }
+	"name": "cssplayground",
+	"version": "1.0.0",
+	"description": "",
+	"main": "gulpfile.js",
+	"scripts": {
+		"serve": "npx cross-env NODE_ENV=dev npx gulp serve",
+		"watch": "npx cross-env NODE_ENV=dev npx gulp watch",
+		"build": "npx cross-env NODE_ENV=production npx gulp build"
+	},
+	"author": "Zeroseven Pty Ltd",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.8.4",
+		"@babel/plugin-proposal-class-properties": "^7.8.3",
+		"@babel/preset-env": "^7.8.4",
+		"autoprefixer": "^9.7.4",
+		"babel-loader": "^8.0.6",
+		"browser-sync": "^2.26.7",
+		"browsersync-ssi": "^0.2.4",
+		"core-js": "^3.6.4",
+		"cross-env": "^5.2.1",
+		"gulp": "^4.0.2",
+		"gulp-cached": "^1.1.1",
+		"gulp-clone": "^2.0.1",
+		"gulp-concat-css": "^3.1.0",
+		"gulp-filter": "^6.0.0",
+		"gulp-less": "^4.0.1",
+		"gulp-notify": "^3.2.0",
+		"gulp-postcss": "^8.0.0",
+		"gulp-progeny": "^0.4.1",
+		"gulp-remember": "^1.0.1",
+		"gulp-sourcemaps": "^2.6.5",
+		"merge-stream": "^2.0.0",
+		"merge2": "^1.3.0",
+		"postcss-clean": "^1.1.0",
+		"postcss-sort-media-queries": "^1.31.21",
+		"webpack": "^4.41.6",
+		"webpack-stream": "^5.2.1"
+	},
+	"dependencies": {
+		"scriptjs": "^2.5.9",
+		"svgxuse": "^1.2.6"
+	}
 }

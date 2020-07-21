@@ -1,0 +1,6 @@
+ie >= 11
+edge >= 18
+chrome >= 70
+ff >= 63
+safari >= 11
+ios >= 10
