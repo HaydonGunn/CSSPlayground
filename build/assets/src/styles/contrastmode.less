@@ -107,6 +107,30 @@ header {
         margin: 0 auto;
         padding: 0 3rem;
     }
+
+// Titles
+.c-title--special {
+    display: none;
+}
+@media (prefers-color-scheme: dark) {
+    .c-title--dark-theme {
+        display: block;
+    }
+}
+@media (prefers-color-scheme: light) {
+    .c-title--light-theme {
+        display: block;
+    }
+}
+@media screen and (-ms-high-contrast: active) {
+    /* All high contrast styling rules */
+    .c-title--high-contrast-mode {
+        display: block;
+    }
+}
+
+
+
 .c-btn {
     border: 2px solid transparent;
     padding: 1rem;
@@ -258,15 +282,15 @@ header {
 
                 /* Background version */
                 
-                /* width: 1.2rem;
+                width: 1.2rem;
                 height: 1.2rem; 
-                background: #4266f5; */
+                background: #4266f5;
                
 
                 /* Border version */
-                width: 0;
-                height: 0;
-                border: 0.6rem solid var(--link-colour);
+                // width: 0;
+                // height: 0;
+                // border: 0.6rem solid var(--link-colour);
                 /* border: 0.6rem solid #4266f5; */
 
                 border-radius: 50%;
