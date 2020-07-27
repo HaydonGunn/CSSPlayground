@@ -40,6 +40,7 @@
 		"webpack-stream": "^5.2.1"
 	},
 	"dependencies": {
+		"http-server": "^0.12.3",
 		"scriptjs": "^2.5.9",
 		"svgxuse": "^1.2.6"
 	}
