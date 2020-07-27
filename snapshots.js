@@ -2,7 +2,7 @@ const PercyScript = require('@percy/script');
 const httpServer = require('http-server');
 
 const PORT = process.env.PORT_NUMBER || 8000;
-const TEST_URL = `http://localhost:${PORT}/contrastmodetest.html`;
+const TEST_URL = `http://localhost:${PORT}/build/contrastmodetest.html`;
 
 PercyScript.run(async (page, percySnapshot) => {
   let server = httpServer.createServer();
