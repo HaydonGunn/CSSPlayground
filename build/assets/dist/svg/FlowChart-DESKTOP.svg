@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1214px" height="428px" viewBox="0 0 1214 428" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Flow Chart</title>
+    <defs>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.35" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Brisbane-Zero---Homepage-A" transform="translate(-189.000000, -1000.000000)">
+            <g id="Flow-Chart" transform="translate(191.500000, 1000.000000)">
+                <g id="Lines">
+                    <rect id="Rectangle" fill="#FFFFFF" opacity="0.2" x="2.5" y="169" width="375" height="13"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" opacity="0.2" x="2.5" y="292" width="491" height="13"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" opacity="0.2" x="2.5" y="415" width="375" height="13"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" opacity="0.2" x="870.5" y="231" width="336" height="13"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" opacity="0.2" x="870.5" y="354" width="336" height="13"></rect>
+                    <rect id="Rectangle" fill="url(#linearGradient-1)" x="493.5" y="292" width="230" height="13"></rect>
+                    <path d="M723.5,298.5 C797.5,298.5 797.5,237.5 870.5,237.5" id="Path" stroke="#FFFFFF" stroke-width="13" opacity="0.2"></path>
+                    <path d="M723.5,360.5 C797.5,360.5 797.5,298.5 870.5,298.5" id="Path-Copy" stroke="#FFFFFF" stroke-width="13" opacity="0.2" transform="translate(797.000000, 329.500000) scale(1, -1) translate(-797.000000, -329.500000) "></path>
+                    <path d="M377.5,175.5 C435.5,175.5 435.5,298.5 493.5,298.5" id="Path-8" stroke="#FFFFFF" stroke-width="13" opacity="0.2"></path>
+                    <path d="M377.5,298.5 C435.5,298.5 435.5,421.5 493.5,421.5" id="Path-8-Copy" stroke="#FFFFFF" stroke-width="13" opacity="0.2" transform="translate(435.500000, 360.000000) scale(1, -1) translate(-435.500000, -360.000000) "></path>
+                    <line x1="0.5" y1="0" x2="0.5" y2="428" id="Line" stroke="#FFFFFF" stroke-width="4" opacity="0.2"></line>
+                    <line x1="1208.5" y1="0" x2="1208.5" y2="367" id="Line-Copy" stroke="#FFFFFF" stroke-width="4" opacity="0.2"></line>
+                </g>
+                <g id="Other-Text" transform="translate(23.500000, 0.000000)">
+                    <text id="IN-FLOW" font-family="Montserrat-ExtraBold, Montserrat" font-size="36" font-weight="600" line-spacing="36" fill="#FDC37F">
+                        <tspan x="3" y="35">IN FLOW</tspan>
+                    </text>
+                    <text id="OUT-FLOW" font-family="Montserrat-ExtraBold, Montserrat" font-size="36" font-weight="600" line-spacing="36" fill="#6BC7BB">
+                        <tspan x="961" y="35">OUT FLOW</tspan>
+                    </text>
+                    <text id="SINCE-APRIL-2020" font-family="Montserrat-SemiBold, Montserrat" font-size="18" font-weight="500" line-spacing="18" fill="#FFFFFF">
+                        <tspan x="0" y="58">SINCE APRIL 2020</tspan>
+                    </text>
+                    <text id="SINCE-APRIL-2020-Copy" font-family="Montserrat-SemiBold, Montserrat" font-size="18" font-weight="500" line-spacing="18" fill="#FFFFFF">
+                        <tspan x="1002" y="58">SINCE APRIL 2020</tspan>
+                    </text>
+                    <text id="Returned-from-housin" font-family="SourceCodePro-Semibold, Source Code Pro" font-size="22" font-weight="500" fill="#FFFFFF">
+                        <tspan x="0.4" y="176">Returned from housing</tspan>
+                    </text>
+                    <text id="Newly-identified" font-family="SourceCodePro-Semibold, Source Code Pro" font-size="22" font-weight="500" fill="#FFFFFF">
+                        <tspan x="0" y="299">Newly identified</tspan>
+                    </text>
+                    <text id="Re-engaged-from-inac" font-family="SourceCodePro-Semibold, Source Code Pro" font-size="22" font-weight="500" fill="#FFFFFF">
+                        <tspan x="0" y="422">Re-engaged from inactive</tspan>
+                    </text>
+                    <text id="Permanently-housed" font-family="SourceCodePro-Semibold, Source Code Pro" font-size="22" font-weight="500" fill="#FFFFFF">
+                        <tspan x="932.4" y="238">Permanently housed</tspan>
+                    </text>
+                    <text id="Moved-to-inactive" font-family="SourceCodePro-Semibold, Source Code Pro" font-size="22" font-weight="500" fill="#FFFFFF">
+                        <tspan x="945.6" y="361">Moved to inactive </tspan>
+                    </text>
+                    <text id="Actively-homeless-in" font-family="SourceCodePro-Semibold, Source Code Pro" font-size="22" font-weight="500" fill="#FFFFFF">
+                        <tspan x="472.8" y="238">Actively homeless</tspan>
+                        <tspan x="512.4" y="266">in Brisbane</tspan>
+                    </text>
+                </g>
+                <g id="Out-Flow-Numbers" transform="translate(1085.500000, 151.000000)" fill="#6BC7BB" font-family="SourceCodePro-Bold, Source Code Pro" font-size="60" font-weight="bold" line-spacing="60">
+                    <text id="154">
+                        <tspan x="0" y="59">154</tspan>
+                    </text>
+                    <text id="67">
+                        <tspan x="36" y="182">67</tspan>
+                    </text>
+                </g>
+                <g id="Active-Number" transform="translate(518.500000, 151.000000)" fill="#FFFFFF" font-family="SourceCodePro-Bold, Source Code Pro" font-size="60" font-weight="bold" line-spacing="60">
+                    <text id="1,138">
+                        <tspan x="0" y="59">1,138</tspan>
+                    </text>
+                </g>
+                <g id="In-Flow-Numbers" transform="translate(23.500000, 89.000000)" fill="#FDC37F" font-family="SourceCodePro-Bold, Source Code Pro" font-size="60" font-weight="bold" line-spacing="60">
+                    <text id="26">
+                        <tspan x="0" y="59">26</tspan>
+                    </text>
+                    <text id="960">
+                        <tspan x="0" y="182">960</tspan>
+                    </text>
+                    <text id="119">
+                        <tspan x="0" y="305">119</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

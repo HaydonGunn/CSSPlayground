@@ -16,7 +16,7 @@ PercyScript.run(async (page, percySnapshot) => {
 
   // ensure the page has loaded before capturing a snapshot
   // await page.waitFor('.c-page-section');
-  await percySnapshot('my first test', { widths: [768, 992, 1200] });
+  await percySnapshot('my first test', { widths: [1200] });
 
   server.close();
 });

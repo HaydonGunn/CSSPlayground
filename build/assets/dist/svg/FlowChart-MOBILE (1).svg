@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="361px" height="800px" viewBox="0 0 361 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mobile Flow Chart</title>
+    <defs>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.35" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="m:-1.0-Homepage" transform="translate(-7.000000, -685.000000)">
+            <g id="Mobile-Flow-Chart" transform="translate(9.500000, 685.000000)">
+                <g id="Lines">
+                    <rect id="Rectangle-Copy-4" fill="url(#linearGradient-1)" x="61.5" y="495" width="233" height="13"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" opacity="0.2" x="2.5" y="137" width="292" height="13"></rect>
+                    <rect id="Rectangle-Copy-5" fill="#FFFFFF" opacity="0.2" x="61.5" y="685" width="292" height="13"></rect>
+                    <rect id="Rectangle-Copy-7" fill="#FFFFFF" opacity="0.2" x="61.5" y="786.5" width="292" height="13"></rect>
+                    <rect id="Rectangle-Copy-3" fill="#FFFFFF" opacity="0.2" transform="translate(345.500000, 295.500000) rotate(-90.000000) translate(-345.500000, -295.500000) " x="244.5" y="289" width="202" height="13"></rect>
+                    <rect id="Rectangle-Copy-8" fill="#FFFFFF" opacity="0.2" transform="translate(10.500000, 647.500000) rotate(-90.000000) translate(-10.500000, -647.500000) " x="-84" y="641" width="189" height="13"></rect>
+                    <rect id="Rectangle-Copy-3" fill="#FFFFFF" opacity="0.2" transform="translate(345.500000, 346.000000) rotate(-90.000000) translate(-345.500000, -346.000000) " x="295" y="339.5" width="101" height="13"></rect>
+                    <rect id="Rectangle-Copy-3" fill="#FFFFFF" opacity="0.5" transform="translate(345.500000, 423.500000) scale(-1, 1) rotate(90.000000) translate(-345.500000, -423.500000) " x="318.5" y="417" width="54" height="13"></rect>
+                    <rect id="Rectangle-Copy" fill="#FFFFFF" opacity="0.2" x="2.5" y="238" width="292" height="13"></rect>
+                    <rect id="Rectangle-Copy-2" fill="#FFFFFF" opacity="0.2" x="2.5" y="339" width="292" height="13"></rect>
+                    <path d="M345.5,396.5 C345.5,368.333478 322.666522,345.5 294.5,345.5" id="Path" stroke="#FFFFFF" stroke-width="13" opacity="0.2"></path>
+                    <path d="M345.5,501.5 C345.5,473.333478 322.666522,450.5 294.5,450.5" id="Path" stroke="#FFFFFF" stroke-width="13" opacity="0.5" transform="translate(320.000000, 476.000000) scale(1, -1) translate(-320.000000, -476.000000) "></path>
+                    <path d="M61.5,552.6 C61.5,524.433478 38.6665222,501.6 10.5,501.6" id="Path-Copy-3" stroke="#FFFFFF" stroke-width="13" opacity="0.35" transform="translate(36.000000, 527.100000) scale(1, -1) rotate(-180.000000) translate(-36.000000, -527.100000) "></path>
+                    <path d="M61.5,691.5 C61.5,663.333478 38.6665222,640.5 10.5,640.5" id="Path-Copy-4" stroke="#FFFFFF" stroke-width="13" opacity="0.2" transform="translate(36.000000, 666.000000) scale(1, -1) rotate(-90.000000) translate(-36.000000, -666.000000) "></path>
+                    <path d="M61.5,793 C61.5,764.833478 38.6665222,742 10.5,742" id="Path-Copy-5" stroke="#FFFFFF" stroke-width="13" opacity="0.2" transform="translate(36.000000, 767.500000) scale(1, -1) rotate(-90.000000) translate(-36.000000, -767.500000) "></path>
+                    <path d="M345.5,295.5 C345.5,267.333478 322.666522,244.5 294.5,244.5" id="Path-Copy" stroke="#FFFFFF" stroke-width="13" opacity="0.2"></path>
+                    <path d="M345.5,194.5 C345.5,166.333478 322.666522,143.5 294.5,143.5" id="Path-Copy-2" stroke="#FFFFFF" stroke-width="13" opacity="0.2"></path>
+                    <line x1="0.5" y1="0" x2="0.5" y2="352" id="Line" stroke="#FFFFFF" stroke-width="4" opacity="0.2"></line>
+                    <line x1="355.5" y1="548" x2="355.5" y2="799.5" id="Line-Copy-3" stroke="#FFFFFF" stroke-width="4" opacity="0.2"></line>
+                    <rect id="Rectangle-Copy-6" fill="#FFFFFF" opacity="0.2" transform="translate(10.500000, 596.500000) rotate(-90.000000) translate(-10.500000, -596.500000) " x="-33.5" y="590" width="88" height="13"></rect>
+                </g>
+                <g id="Other-Text" transform="translate(10.500000, 0.000000)">
+                    <text id="Actively-homeless-in" font-family="SourceCodePro-Semibold, Source Code Pro" font-size="18" font-weight="500" fill="#FFFFFF">
+                        <tspan x="76.2" y="457">Actively homeless</tspan>
+                        <tspan x="108.6" y="480">in Brisbane</tspan>
+                    </text>
+                    <text id="Returned-from-housin-Copy" font-family="SourceCodePro-Semibold, Source Code Pro" font-size="18" font-weight="500" fill="#FFFFFF">
+                        <tspan x="0" y="144">Returned from housing</tspan>
+                    </text>
+                    <text id="Permanently-housed" font-family="SourceCodePro-Semibold, Source Code Pro" font-size="18" font-weight="500" fill="#FFFFFF">
+                        <tspan x="140.6" y="692">Permanently housed</tspan>
+                    </text>
+                    <text id="Moved-to-inactive" font-family="SourceCodePro-Semibold, Source Code Pro" font-size="18" font-weight="500" fill="#FFFFFF">
+                        <tspan x="151.4" y="793.5">Moved to inactive </tspan>
+                    </text>
+                    <text id="Newly-identified" font-family="SourceCodePro-Semibold, Source Code Pro" font-size="18" font-weight="500" fill="#FFFFFF">
+                        <tspan x="0" y="245">Newly identified</tspan>
+                    </text>
+                    <text id="Re-engaged-from-inac" font-family="SourceCodePro-Semibold, Source Code Pro" font-size="18" font-weight="500" fill="#FFFFFF">
+                        <tspan x="0" y="346">Re-engaged from inactive</tspan>
+                    </text>
+                    <text id="IN-FLOW-Copy" font-family="Montserrat-ExtraBold, Montserrat" font-size="32" font-weight="600" line-spacing="36" fill="#FDC37F">
+                        <tspan x="0" y="31">IN FLOW</tspan>
+                    </text>
+                    <text id="SINCE-APRIL-2020-Copy-2" font-family="Montserrat-SemiBold, Montserrat" font-size="16" font-weight="500" line-spacing="18" fill="#FFFFFF">
+                        <tspan x="0" y="56">SINCE APRIL 2020</tspan>
+                    </text>
+                    <text id="SINCE-APRIL-2020-Copy-3" font-family="Montserrat-SemiBold, Montserrat" font-size="16" font-weight="500" line-spacing="18" fill="#FFFFFF">
+                        <tspan x="185" y="604">SINCE APRIL 2020</tspan>
+                    </text>
+                    <text id="OUT-FLOW" font-family="Montserrat-ExtraBold, Montserrat" font-size="32" font-weight="600" line-spacing="36" fill="#6BC7BB">
+                        <tspan x="149" y="579">OUT FLOW</tspan>
+                    </text>
+                </g>
+                <g id="Active-Number" transform="translate(115.500000, 392.000000)" fill="#FFFFFF" font-family="SourceCodePro-Bold, Source Code Pro" font-size="42" font-weight="bold" line-spacing="42">
+                    <text id="Active-number">
+                        <tspan x="0" y="41">1,138</tspan>
+                    </text>
+                </g>
+                <g id="In-Flow-Numbers" transform="translate(10.500000, 79.000000)" fill="#FDC37F" font-family="SourceCodePro-Bold, Source Code Pro" font-size="42" font-weight="bold" line-spacing="42">
+                    <text id="Returned-from-housing">
+                        <tspan x="0" y="41">26</tspan>
+                    </text>
+                    <text id="Newly-identified">
+                        <tspan x="0" y="142">960</tspan>
+                    </text>
+                    <text id="Re-Engaged">
+                        <tspan x="0" y="243">119</tspan>
+                    </text>
+                </g>
+                <g id="Out-Flow-Numbers" transform="translate(269.500000, 627.000000)" fill="#6BC7BB" font-family="SourceCodePro-Bold, Source Code Pro" font-size="42" font-weight="bold" line-spacing="42">
+                    <text id="Permanently-Housed">
+                        <tspan x="0" y="41">154</tspan>
+                    </text>
+                    <text id="Moved-to-Inactive">
+                        <tspan x="25" y="142.5">67</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
