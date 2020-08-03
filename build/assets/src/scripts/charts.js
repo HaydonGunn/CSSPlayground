@@ -3,6 +3,11 @@
 google.charts.load('current', {'packages':['bar']});
 google.charts.setOnLoadCallback(drawCharts);
 
+var prevButton = document.querySelector("[data-js-chart-btn-prev]");
+var nextButton = document.querySelector("[data-js-chart-btn-next]");
+
+var maxWindow = 6;
+
 function drawCharts() {
     var data = google.visualization.arrayToDataTable([
         ['Month', 'In flow', 'Active', 'Out flow'],
@@ -37,11 +42,12 @@ function drawCharts() {
             }
         },
         hAxis: {
+            viewWindowMode: 'explicit',
+            viewWindow: {
+                min: 0,
+                max: 3
+            },
             textStyle: {
-                viewWindow: {
-                    min: 0,
-                    max: 3
-                },
                 color: '#ffffff',
                 fontSize: 16,
                 fontName: 'Source Code Pro'
@@ -49,19 +55,28 @@ function drawCharts() {
         },
         height: 800,
         colors: ['#FDC37F', '#ffffff', '#6BC7BB']
-      };
+    };
 
-      var chart = new google.charts.Bar(document.getElementById('chart_div'));
+    var chart = new google.charts.Bar(document.getElementById('chart_div'));
 
-      chart.draw(data, google.charts.Bar.convertOptions(options));
+    chart.draw(data, google.charts.Bar.convertOptions(options));
 
-      var btns = document.getElementById('btn-group');
-
-      btns.onclick = function (e) {
-
-        if (e.target.tagName === 'BUTTON') {
-          options.vAxis.format = e.target.id === 'none' ? '' : e.target.id;
-          chart.draw(data, google.charts.Bar.convertOptions(options));
-        }
-      }
+    google.visualization.events.addListener(chart, 'ready',
+        function() {
+            prevButton.disabled = options.hAxis.viewWindow.min <= 0;
+            nextButton.disabled = options.hAxis.viewWindow.max >= maxWindow;
+        });
+        
+    prevButton.onclick = function() {
+        options.hAxis.viewWindow.min -= 3;
+        options.hAxis.viewWindow.max -= 3;
+        //drawCharts();
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+    }
+    nextButton.onclick = function() {
+        options.hAxis.viewWindow.min += 3;
+        options.hAxis.viewWindow.max += 3;
+        //drawCharts();
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+    }
 }
