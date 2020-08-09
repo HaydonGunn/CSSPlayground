@@ -22,11 +22,15 @@ function drawCharts() {
     var options = {
         backgroundColor: '#41608F',
         bars: 'vertical',
+        width: 600,
+        height: 500,
         chartArea: {
             backgroundColor: '#41608F',
             fill: '#ffffff'
         },
         legend: {
+            position: 'none',
+            alignment: 'start',
             textStyle: {
                 color: '#ffffff',
                 fontSize: 16,
@@ -53,7 +57,6 @@ function drawCharts() {
                 fontName: 'Source Code Pro'
             }
         },
-        height: 800,
         colors: ['#FDC37F', '#ffffff', '#6BC7BB']
     };
 
