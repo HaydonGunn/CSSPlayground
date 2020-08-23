@@ -6,7 +6,8 @@
 	"scripts": {
 		"serve": "npx cross-env NODE_ENV=dev npx gulp serve",
 		"watch": "npx cross-env NODE_ENV=dev npx gulp watch",
-		"build": "npx cross-env NODE_ENV=production npx gulp build"
+		"build": "npx cross-env NODE_ENV=production npx gulp build",
+		"snapshots": "npx percy exec -- node snapshots.js"
 	},
 	"author": "Zeroseven Pty Ltd",
 	"license": "ISC",
