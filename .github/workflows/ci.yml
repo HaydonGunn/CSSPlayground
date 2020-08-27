@@ -26,6 +26,6 @@ jobs:
       - name: Percy Test
         uses: percy/exec-action@v0.3.0
         with:
-          command: "npm run snapshots"
+          command: "npm run snapshotsPercy"
         env:
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
