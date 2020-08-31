@@ -2,7 +2,7 @@
         Panels
    ----------------------------------- */
 :root {
-    --panel-alt-background: #eeeeee;
+    --panel-alt-background: #dddddd;
     --copy-colour: #363636;
     --link-colour: #4266f5;
     --link-colour-hover: #42a1f5;
@@ -253,8 +253,8 @@ header {
                 left: 0;
                 top: 0;
 
-                border: 1px solid var(--copy-colour);
-                /* border: 1px solid #363636; */
+                // border: 1px solid var(--copy-colour);
+                border: 1px solid #363636;
                 
                 width: 1.8rem;
                 height: 1.8rem;
@@ -284,14 +284,15 @@ header {
                 
                 width: 1.2rem;
                 height: 1.2rem; 
-                background: #4266f5;
+                // background: #4266f5;
                
 
                 /* Border version */
-                // width: 0;
-                // height: 0;
+                width: 5px;
+                height: 5px;
                 // border: 0.6rem solid var(--link-colour);
-                /* border: 0.6rem solid #4266f5; */
+                // border: 0.6rem solid #4266f5;
+                box-shadow: 0 0 3px 1px #4266f5;
 
                 border-radius: 50%;
             }
