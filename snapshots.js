@@ -15,7 +15,7 @@ PercyScript.run(async (page, percySnapshot) => {
   // await page.goto('http://localhost:8080/build/contrastmodetest.html');
 
   // ensure the page has loaded before capturing a snapshot
-  //await page.waitFor('.c-page-section');
+  await page.waitFor('.c-page-section');
   await percySnapshot('my first test', { widths: [1200] });
 
   server.close();
