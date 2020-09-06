@@ -6,7 +6,7 @@ const TEST_URL = `http://localhost:${PORT}/ContrastModeTest.html`;
 const TEST_URL2 = `http://localhost:${PORT}/build/ContrastModeTest.html`;
 
 PercyScript.run(async (page, percySnapshot) => {
-  let server = httpServer.createServer();
+  let server = httpServer.createServer("./build");
   server.listen(PORT);  
 
   console.log(`Server started at ${TEST_URL}`);
