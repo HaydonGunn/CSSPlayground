@@ -12,11 +12,16 @@ PercyScript.run(async (page, percySnapshot) => {
   console.log(`Server started at ${TEST_URL}`);
 
   await page.goto(TEST_URL);
+
+  await percySnapshot('my first test', { widths: [1200] });
+
   await page.goto(TEST_URL2);
+
+  await percySnapshot('my second test', { widths: [1200] });
 
   // ensure the page has loaded before capturing a snapshot
   // await page.waitFor('.c-page-section');
-  await percySnapshot('my first test', { widths: [1200] });
+  
 
   server.close(); 
 });
