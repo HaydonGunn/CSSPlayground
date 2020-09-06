@@ -18,6 +18,6 @@ PercyScript.run(async (page, percySnapshot) => {
   await page.waitFor('.c-page-section');
   await percySnapshot('my first test', { widths: [1200] });
 
-  server.close();
+  server.close(); 
 });
 
