@@ -11,6 +11,7 @@ PercyScript.run(async (page, percySnapshot) => {
   console.log(`Server started at ${TEST_URL}`);
 
   await page.goto(TEST_URL);
+  await page.hover("#testBtn")
 
   await percySnapshot('my first test', { widths: [1200] });
 
