@@ -11,9 +11,12 @@ PercyScript.run(async (page, percySnapshot) => {
   console.log(`Server started at ${TEST_URL}`);
 
   await page.goto(TEST_URL);
-  await page.click('button[data-reveal-trigger]');
 
   await percySnapshot('my first test', { widths: [1200] });
+
+  await page.click('button[data-reveal-trigger]');
+
+  await percySnapshot('reveal button clicked', { widths: [1200] });
 
   // ensure the page has loaded before capturing a snapshot
   // await page.waitFor('.c-page-section');
