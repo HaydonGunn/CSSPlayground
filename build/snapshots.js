@@ -18,7 +18,6 @@ PercyScript.run(async (page, percySnapshot) => {
 
   await percySnapshot('reveal button clicked', { widths: [1200] });
 
-
   // ensure the page has loaded before capturing a snapshot
   // await page.waitFor('.c-page-section');
 
