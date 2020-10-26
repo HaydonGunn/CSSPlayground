@@ -10,7 +10,10 @@ PercyScript.run(async (page, percySnapshot) => {
 
   console.log(`Server started at ${TEST_URL}`);
 
-  await page.goto(TEST_URL);
+  // Wait for network idle for at least 500ms, means the image will load
+  await page.goto(TEST_URL, {"waitUntil" : "networkidle0"});
+
+  // await page.waitFor('.c-page-section');
 
   await percySnapshot('my first test', { widths: [1200] });
 
